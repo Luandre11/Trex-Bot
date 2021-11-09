@@ -26,7 +26,7 @@ async def on_message(message):
 
 @client.event   #Event to detect when a user joins the server
 async def on_member_join(member):
-    await member.send('Hi! Welcome to our server, in 30 seconds you will get "Noob" role!')
+    await member.send('Hi! Welcome to our server!')
     verifiedRole = discord.utils.get(member.guild.roles, id=842062523041185802)
     await member.add_roles(verifiedRole)
 
