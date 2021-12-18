@@ -30,5 +30,5 @@ async def on_member_join(member):
     verifiedRole = discord.utils.get(member.guild.roles, id=842062523041185802)
     await member.add_roles(verifiedRole)
 
-client.run('OTA3NTE2MTY5NTI1ODIxNDUw.YYoUSw.k6WgS43MSJz4y5XH6lxoVLL4McY')
+client.run('Your Bot Token Here')
 
