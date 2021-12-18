@@ -3,6 +3,8 @@ from discord.ext.commands import bot
 
 client = discord.Client()
 
+#good morning  I love you 
+
 #Confirms the bot is online
 @client.event
 async def on_ready():
@@ -31,4 +33,8 @@ async def on_member_join(member):
     await member.add_roles(verifiedRole)
 
 client.run('Your Bot Token Here')
+
+
+
+
 
